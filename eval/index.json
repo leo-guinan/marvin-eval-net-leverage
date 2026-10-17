@@ -1,0 +1,20 @@
+{
+  "id": "marvin.net-leverage",
+  "name": "Net Leverage",
+  "version": "0.1.0",
+  "status": "scaffold",
+  "category": "Economics",
+  "standard": "Time removed from Leo's week exceeds model cost plus supervision, correction, and recovery time.",
+  "test": "Reconcile owned work, review time, correction time, model cost, and recovered time from an auditable weekly ledger.",
+  "metric": {
+    "name": "net_leverage_hours",
+    "unit": "owned-work hours minus supervision and correction hours; costs remain separately reported"
+  },
+  "claim_boundary": "A ledger result is an observation for that week, not a forecast of future savings.",
+  "latest_run": null,
+  "provenance": {
+    "creator_adjudication": "not yet recorded",
+    "fixtures": "not yet published",
+    "synthetic_results_must_not_be_presented_as_real": true
+  }
+}
